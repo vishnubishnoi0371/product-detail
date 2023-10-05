@@ -1,0 +1,171 @@
+:root {
+    /* font size */
+    --small1: 11px;
+    --small3: 14px;
+    --small5: 16px;
+    --small7: 13px;
+    --small9: 17px;
+    --medium2: 25px;
+    --medium3: 24px;
+    --medium5: 25px;
+    --medium6: 35px;
+    --medium7: 36px;
+    --medium8: 37px;
+    --medium9: 38px;
+
+
+
+    /* color */
+    --white1: #fff;
+    --grey2: #555;
+    --grey3: #4d4d4d;
+    --grey4: #222;
+    --red1: #F00;
+    --red2: #F40;
+    --blue: #007BFF;
+    --green2: #454729;
+    --black1: #000;
+    --black2: #181818;
+    --black4: #0D0D0D;
+
+
+    /* font-family */
+    --ff-1: 'roboto';
+    --ff-2: 'Poppins';
+    --ff-3: 'Josefin Sans';
+   
+
+    
+
+}
+
+
+
+
+/* font size */
+.small1 {
+    font-size: var(--small1);
+}
+
+.small3 {
+    font-size: var(--small3);
+}
+
+.small5 {
+    font-size: var(--small5);
+}
+
+.small7 {
+    font-size: var(--small7);
+}
+
+.small9 {
+    font-size: var(--small9);
+}
+
+.medium2 {
+    font-size: var(--medium2);
+}
+
+.medium3 {
+    font-size: var(--medium3);
+}
+
+.medium5 {
+    font-size: var(--medium5);
+}
+
+.medium6 {
+    font-size: var(--medium6);
+}
+
+.medium7 {
+    font-size: var(--medium7);
+}
+
+.medium8 {
+    font-size: var(--medium8);
+}
+
+.medium9 {
+    font-size: var(--medium9);
+}
+
+
+
+
+/* color */
+.white1 {
+    color: var(--white1);
+}
+
+.grey2 {
+    color: var(--grey2);
+}
+
+.grey3 {
+    color: var(--grey3);
+}
+
+.grey4 {
+    color: var(--grey4);
+}
+
+.red1 {
+    color: var(--red1);
+}
+
+.red2 {
+    color: var(--red2);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.green2 {
+    color: var(--green2);
+}
+
+.black1 {
+    color: var(--black1);
+}
+
+.black2 {
+    color: var(--black2);
+}
+
+.black4 {
+    background: var(--black4);
+}
+/* ff */
+.ff-1 {
+    font-family: var(--ff-1);
+}
+
+.ff-2 {
+    font-family: var(--ff-2) ;
+}
+.ff-3 {
+    font-family: var(--ff-3);
+}
+
+@media (min-width:576px) {
+    :root {
+        /* font size */
+        --small1: 11px;
+        --small3: 14px;
+        --small5: 16px;
+        --small7: 18px;
+        --small9: 20px;
+        --medium2: 25px;
+        --medium3: 24px;
+        --medium5: 30px;
+        --medium6: 35px;
+        --medium7: 36px;
+        --medium8: 37px;
+        --medium9: 38px;
+
+    }
+
+}
